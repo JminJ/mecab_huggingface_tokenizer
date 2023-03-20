@@ -4,6 +4,7 @@
 
 ## Caution
 * 해당 토크나이징 방식을 활용 했을 경우 pretrain 모델에 따라 finetune 성능이 떨어질 수도 있습니다.
+* 해당 로직은 Sentencepiece 기반 토크나이저에서는 부합하지 않는 것으로 확인 되었습니다. 주의 부탁드립니다
 
 ## How to use
 ```python
